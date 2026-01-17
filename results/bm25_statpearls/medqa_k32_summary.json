@@ -1,0 +1,12 @@
+{
+  "experiment_name": "bm25_statpearls",
+  "dataset": "medqa",
+  "retriever": "BM25Retriever",
+  "corpus": "statpearls",
+  "k": 32,
+  "total_questions": 300,
+  "correct": 195,
+  "accuracy": 0.65,
+  "timestamp": "2026-01-17T17:47:55.387173",
+  "duration_seconds": 496.9406101703644
+}

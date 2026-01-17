@@ -1,0 +1,12 @@
+{
+  "experiment_name": "bm25_pubmed",
+  "dataset": "medqa",
+  "retriever": "BM25Retriever",
+  "corpus": "pubmed",
+  "k": 8,
+  "total_questions": 300,
+  "correct": 191,
+  "accuracy": 0.6366666666666667,
+  "timestamp": "2026-01-17T16:58:19.770238",
+  "duration_seconds": 527.0943608283997
+}

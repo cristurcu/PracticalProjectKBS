@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "medrag-replication"
+version = "0.1.0"
+description = "Partial replication of MedRAG: Benchmarking RAG for Medicine"
+authors = ["Alexia Cristiana Turcu <cristurcu13@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+openai = "^1.0"
+tiktoken = "^0.5"
+python-dotenv = "^1.0"
+requests = "^2.31"
+tqdm = "^4.66"
+jinja2 = "^3.1"
+pandas = "^2.0"
+numpy = ">=2.0,<2.3"
+rank-bm25 = "^0.2"
+sentence-transformers = "^3.0"
+faiss-cpu = "^1.8"
+datasets = "^3.0"
+torch = ">=2.0,<2.3"
+tabulate = "^0.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+black = "^25.12.0"
+ruff = "^0.14.13"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

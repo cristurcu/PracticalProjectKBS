@@ -1,0 +1,12 @@
+{
+  "experiment_name": "baseline_cot",
+  "dataset": "pubmedqa",
+  "retriever": null,
+  "corpus": null,
+  "k": null,
+  "total_questions": 500,
+  "correct": 110,
+  "accuracy": 0.22,
+  "timestamp": "2026-01-17T16:27:19.911906",
+  "duration_seconds": 728.0972328186035
+}
